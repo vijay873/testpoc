@@ -6,3 +6,8 @@ datagroup: poc_vj_default_datagroup {
 }
 
 persist_with: poc_vj_default_datagroup
+
+explore: ticket_emd {
+
+
+}
