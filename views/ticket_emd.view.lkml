@@ -46,7 +46,8 @@ view: ticket_emd {
     group_label: "Charge Amount"
     type: sum
     sql: ${charge_amount} ;;
-    value_format_name: usd_0
+    #value_format_name: usd_0
+    value_format: "0.000,,\" M\""
     filters: [this_year: "yes", year_to_date: "yes"]
   }
 
@@ -54,7 +55,7 @@ view: ticket_emd {
     group_label: "Charge Amount"
     type: sum
     sql: ${charge_amount} ;;
-    value_format_name: usd_0
+    value_format: "0.000,,\" M\""
     filters: [last_year: "yes", year_to_date: "yes"]
   }
 
